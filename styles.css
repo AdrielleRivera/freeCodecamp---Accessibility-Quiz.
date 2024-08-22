@@ -156,6 +156,10 @@ footer{
 footer, footer a{
   color:#dfdfe2;
 }
+address{
+  padding:1px;
+  text-align:center;
+}
 
 .sr-only {{/*code for moving*/
   position: absolute;
