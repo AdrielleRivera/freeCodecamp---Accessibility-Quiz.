@@ -26,13 +26,8 @@ header {
 h1 {
   color: #f1be32;
   font-size: min(5vw, 1.2em);
-  text-align:center;
+  text-align: center;
 }
-main{
-  text-align:center;
-  padding-top:25px;
-}
-
 
 nav {
   width: 50%;
@@ -43,6 +38,11 @@ nav {
 nav > ul {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap:wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
 }
 
 nav > ul > li {
@@ -63,6 +63,10 @@ li > a {
   text-decoration: none;
 }
 
+main {
+  padding-top: 50px;
+}
+
 h1,
 h2 {
   font-family: Verdana, Tahoma;
@@ -76,7 +80,7 @@ h3::before {
   content: "Question #";
 }
 
-.sr-only {
+.sr-only {/*code for moving*/
   position: absolute;
   width: 1px;
   height: 1px;
