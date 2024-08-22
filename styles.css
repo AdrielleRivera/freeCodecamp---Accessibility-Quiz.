@@ -153,6 +153,10 @@ footer{
   background:#2a2a40;
 }
 
+footer, footer a{
+  color:#dfdfe2;
+}
+
 .sr-only {{/*code for moving*/
   position: absolute;
   width: 1px;
