@@ -129,6 +129,10 @@ h3{
 h3::before {
   content: "Question #";
 }
+.question{
+  border:none;
+  padding-bottom:0;
+}
 
 .sr-only {{/*code for moving*/
   position: absolute;
